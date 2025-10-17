@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DAMFlix - Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+ <header>
+  <nav class="navbar">
+    <div class="logo">🎬 DAMFlix</div>
+
+    <!-- Hamburger icon -->
+    <div class="menu-toggle" id="menu-toggle">☰</div>
+
+    <!-- Navigation Links -->
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="tvshows.html">TV Shows</a></li>
+      <li><a href="hollywood.html">Hollywood</a></li>
+      <li><a href="bollywood.html">Bollywood</a></li>
+      <li><a href="newsletter.html">Newsletter</a></li>
+    </ul>
+
+    <!-- Search Bar -->
+    <div class="search-bar">
+      <input type="text" id="searchInput" placeholder="Search movies..." />
+      <button id="searchBtn">Search</button>
+    </div>
+  </nav>
+</header>
+
+
+  <main>
+  <section class="hero">
+    <h1>Welcome to <samp>DAMFlix</samp> </h1>
+    <p>Explore your favorite movies and shows!</p>
+  </section>
+
+  <section class="categories">
+    <h2>Explore <samp> Flim Industries</samp></h2>
+    <div class="category-container">
+      <div class="category-card">
+        <img src="images/hollwoodV1_.jpg" alt="Hollywood Movies">
+        <div class="card-info">
+          <h3>Hollywood</h3>
+          <a href="hollywood.html" class="btn">View More</a>
+        </div>
+      </div>
+
+      <div class="category-card">
+        <img src="images/bollyoowd.jpg" alt="Bollywood Movies">
+        <div class="card-info">
+          <h3>Bollywood</h3>
+          <a href="bollywood.html" class="btn">View More</a>
+        </div>
+      </div>
+
+      <div class="category-card">
+        <img src="images/tvshows.webp" alt="TV Shows">
+        <div class="card-info">
+          <h3>TV Shows</h3>
+          <a href="tvshows.html" class="btn">View More</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<h1 class="trending">Trending Now</h1>
+<div id="movies" class="movies-container"></div>
+
+<!-- Trailer Modal -->
+<div id="trailerModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <iframe id="trailerFrame" width="800" height="450" frameborder="0" allowfullscreen></iframe>
+  </div>
+</div>
+
+<footer>DAMFlix copyright <b>©</b>2025.All rights are Reserved</footer>
+
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
