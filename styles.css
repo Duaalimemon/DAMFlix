@@ -345,7 +345,7 @@ body {
 footer{
   font-size: 0.9rem;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  position: relative;
+  position: fixed;
   bottom: 0%;
   width: 100%;
   text-align: center;
@@ -499,3 +499,4 @@ footer{
     transform: translateY(0);
   }
 }
+
